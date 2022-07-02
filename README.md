@@ -47,4 +47,4 @@
 
 # Credits
 
-- [Kazi Md. Aldin Fardin](#FB)
+- [Kazi Md. Aldin Fardin](#credits)
