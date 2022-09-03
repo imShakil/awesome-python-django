@@ -1,0 +1,33 @@
+<html>
+    <head>
+       <title>Hello World</title> 
+       <style type="text/css">
+        h2 {
+            text-align: center;
+        }
+        li {
+            list-style: icon;
+        }
+       </style>
+    </head>
+    <body>
+        {% if name %}
+        <h2>Hola Programmer {{name}} !</h2>
+        {% else %}
+        <h2>Hola Programmers!</h2>
+        {% endif %}
+        
+        <h2>Products with collections</h2>
+        <ul>
+        {% for product in products %}
+            <li>{{product.title}}</li>
+        {% endfor %}
+        </ul>
+
+        <br>
+        <h2>Orders with Details</h2>
+        {% for order in orders %}
+            <li>{{order.id}} {{order.placed_at}} - {{order.customer.first_name}} {{order.customer.last_name}} - Payment Status: {{order.payment_status}}</li>
+        {% endfor %}
+    </body>
+</html>
