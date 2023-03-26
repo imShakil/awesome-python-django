@@ -5,10 +5,10 @@
 - Prerequisites for learning Django
 
 # Setting up Django
-A. Installing Python and Django
-B. Creating a virtual environment
-C. Creating a new Django project
-D. Running the development server
+- Installing Python and Django
+- Creating a virtual environment
+- Creating a new Django project
+- Running the development server
 
 # Django basics
 - Understanding the Django architecture
